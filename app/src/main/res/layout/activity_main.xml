@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/inputZip"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="130dp"
@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Find Weather"
-        android:id="@+id/button"
+        android:id="@+id/weatherButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
