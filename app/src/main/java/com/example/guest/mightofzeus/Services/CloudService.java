@@ -1,5 +1,7 @@
 package com.example.guest.mightofzeus.Services;
 
+import android.util.Log;
+
 import com.example.guest.mightofzeus.Constants;
 import com.example.guest.mightofzeus.Model.Day;
 import com.example.guest.mightofzeus.Model.Zeus;
@@ -32,6 +34,7 @@ public class CloudService {
         urlBuilder.addQueryParameter(Constants.DAYS_QUERY_PARAMETER, Constants.DAYS);
         urlBuilder.addQueryParameter(Constants.API_KEY_QUERY_PARAMETER, Constants.API_KEY);
         String url =urlBuilder.build().toString();
+        Log.d("url", url);
 
         Request request = new Request.Builder()
                 .url(url)

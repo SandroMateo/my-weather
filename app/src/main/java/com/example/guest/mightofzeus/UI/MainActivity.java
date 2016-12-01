@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.guest.mightofzeus.R;
-import com.example.guest.mightofzeus.ZeusFuryActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
